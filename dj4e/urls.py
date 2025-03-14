@@ -28,4 +28,5 @@ urlpatterns = [
 
     # Sample applications
     path('autos/', include('autos.urls')),
+    path('cats/', include('cats.urls')),
 ]
